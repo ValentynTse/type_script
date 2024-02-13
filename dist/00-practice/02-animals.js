@@ -13,6 +13,8 @@ class Bird {
     sound() {
         return "Chirp";
     }
+    color;
+    wingspan;
     constructor(color, wingspan) {
         this.color = color;
         this.wingspan = wingspan;
@@ -25,8 +27,9 @@ class Fish {
     sound() {
         return "Blub";
     }
+    legs = 0;
+    type;
     constructor(type) {
-        this.legs = 0;
         this.type = type;
     }
 }

@@ -1,4 +1,5 @@
 class StringIterator {
+    data;
     constructor(...args) {
         this.data = args;
     }

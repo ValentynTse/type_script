@@ -1,10 +1,13 @@
 class Car {
+    brand;
+    year;
     constructor(brand, year) {
         this.brand = brand;
         this.year = year;
     }
 }
 class BMW extends Car {
+    model;
     constructor(brand, year, model) {
         super(brand, year);
         this.model = model;
@@ -14,6 +17,7 @@ class BMW extends Car {
     }
 }
 class Mercedes extends Car {
+    color;
     constructor(brand, year, color) {
         super(brand, year);
         this.color = color;
@@ -23,6 +27,7 @@ class Mercedes extends Car {
     }
 }
 class Audi extends Car {
+    price;
     constructor(brand, year, price) {
         super(brand, year);
         this.price = price;

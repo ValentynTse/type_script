@@ -1,7 +1,5 @@
 class MyDictionary {
-    constructor() {
-        this.terms = {};
-    }
+    terms = {};
     get(key) {
         const term = this.terms[key];
         if (term) {
